@@ -28,6 +28,10 @@ export default function Characters(props) {
                                     </>
                                 )}
                             </h6>
+                            <p>
+                                <span className="text-grey">Episodios:</span>
+                                <span>{character.episode.length}</span>
+                            </p>
                         </div>
                     </div>
                 ))}
