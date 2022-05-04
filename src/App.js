@@ -20,7 +20,7 @@ function App() {
         <h1 className="title">Rick & Morty</h1>
         {/* INICIO TERNARIOS - Nos permitira ver si el objeto character viene vacio y realizar una funcion especifica */}
         {characters ? (
-          <Characters character={characters} />
+          <Characters characters={characters} />
         ) : (
           <>
             <img src={imageRickMorty} alt="Rick & Morty" className="img-home" />

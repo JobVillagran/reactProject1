@@ -2,6 +2,7 @@
 export default function Characters(props) {
     const {characters} = props;
 
+
     return (
         <div className="characters">
             <h1>Personajes</h1>
